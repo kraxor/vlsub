@@ -1590,7 +1590,7 @@ function download_subtitles()
 	end
 	
 	-- load subtitles
-	if add_sub(subfileURI) then 
+	if add_sub(target) then 
 		message = success_tag(lang["mess_loaded"]) .. message
 	else
 		message = error_tag(lang["mess_not_load"]) .. message
